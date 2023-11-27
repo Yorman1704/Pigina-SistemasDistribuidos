@@ -1,0 +1,86 @@
+.body {
+    padding: 3%;
+    background-color: #0B6483;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.nombre {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.parrafoFooter,
+.parrafo1 {
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.divbtn {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .divlogo {
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .nombre {
+        text-align: left;
+    }
+
+    .imgtext {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .img {
+        width: 48%;
+    }
+
+    .parrafoFooter,
+    .parrafo1 {
+        padding: 0;
+    }
+
+    .divbtn {
+        width: auto;
+    }
+}
